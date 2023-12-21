@@ -62,9 +62,19 @@ console.log(marvelHeros2.slice());
                 //  splice( startIdx , delCount , endEl1... )
 
 let marvelHeros3 = ['Thor','Spiderman','Ironman','Antman'];
-marvelHeros3.splice(1,2,'Batman','Superman');
+// add method
+marvelHeros3.splice(1,0,'Batman','Superman');
 console.log(marvelHeros3);
 
+let marvelHeros4 = ['Thor','Spiderman','Ironman','Antman'];
+// delete method
+marvelHeros4.splice(1,2);
+console.log(marvelHeros4);
+
+let marvelHeros5 = ['Thor','Spiderman','Ironman','Antman'];
+// replace method
+marvelHeros5.splice(1,1,'Batman');
+console.log(marvelHeros5);
 
 
 
