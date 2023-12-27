@@ -1,4 +1,4 @@
-// Attributes
+                                      // Attributes
 
 // to get the attribute value
 
@@ -22,3 +22,9 @@ console.log(set);
 
 let val1 = par.getAttribute("class");
 console.log(val1);
+
+
+
+
+
+

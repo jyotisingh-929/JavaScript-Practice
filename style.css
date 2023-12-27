@@ -11,11 +11,21 @@ button{
     background-color: rgb(153, 226, 43);
     color: white;
 }
-.box{
-    height: 100px;
+#box{
+    height: 250px;
     width: 250px;
     border: 1px solid red;
     text-align: center;
     margin: 15px;
     background-color: chocolate;
+}
+.para{
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.newpara{
+    background-color: blueviolet;
+    font-weight: 900;
+    font-family: sans-serif;
 }
