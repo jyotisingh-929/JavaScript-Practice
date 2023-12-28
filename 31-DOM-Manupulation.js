@@ -60,3 +60,14 @@ let allElem = document.querySelectorAll("p");
 console.dir(allElem);
 console.log(allElem);
 
+// get one element
+
+let btn = document.querySelector(".btn");
+console.log(btn);
+console.dir(btn);
+
+// get all elements
+
+let btns = document.querySelectorAll(".btn");
+console.log(btns);
+console.dir(btns);

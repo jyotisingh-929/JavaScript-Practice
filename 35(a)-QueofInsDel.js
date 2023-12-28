@@ -14,13 +14,17 @@ body.prepend(crebtn);
 
 // create new class in css and append the new class to <p> element
 
+// let para = document.querySelector("p");
+// console.dir(para);
+// let get = para.getAttribute("class");
+// console.log(get);
+// let set = para.classList.add("newpara");
+
+// create new class in css and append the new class to <p> element
+
 let para = document.querySelector("p");
-console.dir(para);
-let get = para.getAttribute("class");
-console.log(get);
-let set = para.classList.add("newpara");
-
-
+para.classList.add("newpara");
+para.classList.remove("paras");
 
 
 
